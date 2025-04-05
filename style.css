@@ -85,7 +85,7 @@ header .menu .btn {
   height: 750px;
 }
 #welcome .box h1 {
-  font-size: 38px;
+  font-size: 45px;
   font-weight: 700;
 }
 #welcome .box h3 {
@@ -107,7 +107,7 @@ header .menu .btn {
 #welcome .box .btn:hover {
   background-color: #c28d07;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   #welcome {
     background-image: url(Assets/header-bg.jpg);
     background-position: center center;
@@ -118,11 +118,11 @@ header .menu .btn {
     color: white;
   }
   #welcome .box h1 {
-    font-size: 25px;
+    font-size: 50px;
   }
   #welcome .box h3 {
     font-size: 72px;
-    margin: 30px 0 50px;
+    margin: 25px 0 50px;
   }
 }
 @media screen and (max-width: 374px) {
@@ -145,7 +145,7 @@ header .menu .btn {
 }
 
 #services h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
 }
 #services h3 {
@@ -223,7 +223,7 @@ header .menu .btn {
 }
 #portfolio h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
 }
 #portfolio h3 {
   font-size: 20px;
@@ -239,7 +239,7 @@ header .menu .btn {
   text-align: center;
 }
 #portfolio .box .textbox h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
   margin-top: 13px;
@@ -288,7 +288,7 @@ header .menu .btn {
 
 #about h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
 }
 #about h4 {
   font-size: 18px;
@@ -343,7 +343,7 @@ header .menu .btn {
   color: white;
   line-height: 1.2;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   #about h1 {
     font-weight: 700;
     font-size: 55px;
@@ -444,6 +444,9 @@ header .menu .btn {
 #team .textbox h3 {
   font-size: 18px;
   color: #6c7596;
+}
+#team .box {
+  margin: 0 0 40px 0;
 }
 #team .box .imgbox {
   width: 230px;
