@@ -1,5 +1,4 @@
 header
-    background-attachment: fixed
     background-color: #212529
     position: fixed
     right: 0
@@ -7,9 +6,14 @@ header
     z-index: 1
     width: 100%
     .menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 20px 0
         .imgbox
             width: 170px
         nav
+            display: block
             a
                 cursor: pointer
                 font-size: 18px
@@ -21,8 +25,6 @@ header
             display: none
     @media screen and ( max-width: 990px )
         .menu
-            display: flex
-            justify-content: space-between
             width: 100%
             nav
                 display: none
@@ -42,4 +44,3 @@ header
         .menu
             display: flex
             flex-flow: row wrap
-            
