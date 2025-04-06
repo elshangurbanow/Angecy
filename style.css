@@ -613,8 +613,14 @@ header .menu .btn {
   #contact .textbox {
     margin-top: 15px;
   }
+  #contact .textbox textarea {
+    margin-top: 43px;
+  }
 }
 @media screen and (max-width: 576px) {
+  #contact .box textarea {
+    margin: 0;
+  }
   #contact .box h1 {
     font-size: 45px;
   }
