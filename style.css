@@ -416,9 +416,10 @@ header .menu .btn {
     justify-content: flex-start;
   }
 }
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
   #about h1 {
     font-size: 45px;
+    color: red;
   }
   #about h4 {
     font-size: 19px;
@@ -426,13 +427,13 @@ header .menu .btn {
   #about .box {
     display: flex;
     justify-content: end;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
   #about .box .textbox h2 {
-    font-size: 23px;
+    font-size: 20px;
   }
   #about .box .textbox p {
-    font-size: 13px;
+    font-size: 10px;
   }
   #about .box .imgbox {
     width: 150px;
