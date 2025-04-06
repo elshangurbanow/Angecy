@@ -6,8 +6,12 @@ body {
 .imgbox {
   overflow: hidden;
 }
+.imgbox img {
+  width: 100%;
+}
+
 section {
-  padding: 90px 0;
+  padding: 50px 0;
 }
 
 header {
@@ -298,7 +302,7 @@ header .menu .btn {
 #about .box {
   display: flex;
   justify-content: end;
-  margin: 0 100px 100px 0;
+  margin: 0 90px 100px 0;
 }
 #about .box .textbox {
   width: 400px;
@@ -319,8 +323,8 @@ header .menu .btn {
   width: 160px;
   height: 160px;
   border: 7px solid #ded8d8;
-  border-radius: 100%;
-  margin: 0 30px;
+  border-radius: 200%;
+  margin: 0 34px;
 }
 #about .left {
   display: flex;
@@ -360,7 +364,8 @@ header .menu .btn {
   #about .box {
     display: flex;
     justify-content: start;
-    margin: 0 0 50px 0;
+    align-items: flex-start;
+    padding: 0 0 0 0;
   }
   #about .box .textbox {
     width: 600px;
@@ -378,18 +383,14 @@ header .menu .btn {
     line-height: 1.4;
   }
   #about .box .imgbox {
-    border: 7px solid #ded8d8;
-    border-radius: 200%;
-  }
-  #about .box .imgbox img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: auto;
   }
   #about .left {
     display: flex;
     justify-content: start;
     flex-direction: row-reverse;
-    margin: 0 30px 100px 0;
+    margin: 0 0 100px 0;
   }
   #about .left .textbox {
     text-align: start;
@@ -398,7 +399,7 @@ header .menu .btn {
     width: 150px;
     height: 150px;
     background-color: #ffc800;
-    border-radius: 100%;
+    border-radius: 200%;
     border: 7px solid #ded8d8;
     padding: 40px;
   }
@@ -417,30 +418,8 @@ header .menu .btn {
   #about h1 {
     font-size: 60px;
   }
-  #about .box {
-    display: flex;
-    justify-content: start;
-    margin: none;
-  }
   #about .box .textbox h2 {
-    font-size: 20px;
-  }
-  #about .box .textbox p {
-    font-size: 15px;
-  }
-  #about .box .imgbox {
-    width: 70px;
-    height: 70px;
-    border: 7px solid #ded8d8;
-    border-radius: 100%;
-  }
-  #about .left {
-    display: flex;
-    justify-content: start;
-  }
-  #about .storys {
-    display: flex;
-    justify-content: start;
+    font-size: 17px;
   }
 }
 
